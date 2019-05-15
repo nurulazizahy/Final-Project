@@ -1,0 +1,189 @@
+
+body{
+    background-image: url("background.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+   
+   
+}
+
+
+.contactus1 {
+    
+        background:rgba(2, 2, 2, 0.5);
+        width: 76%;
+        height: 428px;
+        padding:69px;
+        border-radius: 10px;
+        border-top-left-radius: 0px;
+        color:#fff;
+        text-align: justify;
+}
+
+#nav{
+    background-color:rgba(2, 2, 2, 0.5);
+    color: #fff;
+    
+   
+}
+a{
+    color: #212529;
+}
+.contact1, .contact2{
+    background:rgba(2, 2, 2, 0.5);
+    width: 76%;
+    height: 428px;
+    padding:69px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    
+    text-align: justify;;
+
+    border-top-left-radius: 10px;
+}
+
+#myCarousel.carousel.slide {
+    width: 100%; 
+    max-width: 700px;
+    margin: auto;
+}
+
+
+.contactus, .product {
+    font-weight: normal;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 30px;
+    width: 500px;
+    color: #F90;
+    text-align: center;
+}
+
+
+/* Animation webkit */
+@-webkit-keyframes myfirst
+{
+	0% {margin-left: -235px}
+	90% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+/* Animation */
+@keyframes myfirst
+{
+	0% {margin-left: -235px}
+	70% {margin-left: 100%;}
+	100% {margin-left: 100%;}
+}
+
+
+
+
+#form{
+	height: 100%;	
+	
+	overflow: hidden;
+	position: relative;
+	
+}
+form{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	
+	position: relative;
+	
+	
+}
+label, input, textarea{
+    display: block;	
+    
+}
+input, textarea{
+	width: 500px;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+/*input:focus, textarea:focus{
+	border: solid 3px #77bde0;	
+}*/
+
+textarea{
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+input[type="submit"]{
+	background-color: #F90;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	font-family: 'Sniglet', cursive;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+input[type="submit"]:hover{
+	background-color: #e58f0e;
+	
+}
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.formgroup, .formgroup-active, .formgroup-error{
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 10.5%;
+	transition: background-image 0.7s;
+	-webkit-transition: background-image 0.7s;
+	-moz-transition: background-image 0.7s;
+	-o-transition: background-image 0.7s;
+	width: 566px;
+	padding-top: 2px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    width: 300px;
+    height:300px;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .makanan{
+      width:200px;
+      height: 200px;
+    
+  }
